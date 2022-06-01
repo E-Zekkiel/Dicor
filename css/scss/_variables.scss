@@ -1,0 +1,11 @@
+$instagram-color: linear-gradient(191deg, rgba(131,58,180,1) 27%, rgba(247,30,36,1) 63%, rgba(253,29,29,1) 72%, rgba(252,176,69,1) 100%);
+
+@mixin redes ($color) {
+    color: #f4f8a1;
+    padding: 7px;
+    &:hover {
+        color: white;
+        border-radius: 50%;
+        background: $color;
+    }
+}

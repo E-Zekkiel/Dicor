@@ -1,0 +1,32 @@
+footer {
+    display: flex;
+    align-items: center;
+    background: #282828;
+    min-height: 15vh;
+    padding: 15px;
+    gap: 5px; 
+
+    & img {
+        height: 90px;
+    }
+    & p {
+        margin: 5px 0;
+        color: #cdceb3;
+    }
+    & a {
+        text-decoration: none;
+        & p:hover {
+            color: #f4f8a1;
+        }
+    }
+}
+.redes {
+    margin-top: 10px;    
+    gap: 15px;
+    &__i {
+        @include redes($instagram-color);
+    }
+    &__f {
+        @include redes (#3b5998);
+    }
+}

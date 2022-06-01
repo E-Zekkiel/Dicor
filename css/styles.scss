@@ -1,0 +1,15 @@
+body {
+    background-color: violet;
+}
+
+
+@import "./scss/variables";
+@import "./scss/reset";
+@import "./scss/header";
+@import "./scss/nav";
+@import "./scss/index";
+@import "./scss/catalogo";
+@import "./scss/contactarnos";
+@import "./scss/carrito";
+@import "./scss/footer";
+@import "./scss/media-querys";
