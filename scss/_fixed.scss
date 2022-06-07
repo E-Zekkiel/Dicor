@@ -1,0 +1,61 @@
+.fixed {
+    & .redes {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        right: 25px;
+        bottom: 40px;
+        // width: 100%;
+        height: 60px;
+        justify-content: space-around;
+        align-items: end;
+
+        &__w {
+            -webkit-text-stroke: 0.5px #282828;
+            color: lightgreen;
+            padding: 2px;
+            border-radius: 25%;
+            transform: scale(2);
+            transition: all 400ms ease-out;
+
+            &:hover {
+                transition: all 400ms ease-out;
+                -webkit-text-stroke: 0.3px #282828;
+                background: lightgreen;
+                color: #f3f3f3;
+            }
+        }
+        &__f {
+            -webkit-text-stroke: 0.5px #282828;
+            color: lightblue;
+            padding: 2px;
+            border-radius: 25%;
+            transform: scale(1.8);
+            transition: all 400ms ease-out;
+
+            &:hover {
+                transition: all 400ms ease-out;
+                -webkit-text-stroke: 0.3px #282828;
+                background: lightblue;
+                color: #f3f3f3;
+            }
+        }
+        &__i {
+            -webkit-text-stroke: 0.5px #282828;
+            color: lightpink;
+            padding: 2px;
+            border-radius: 25%;
+            transform: scale(2);
+            transition: all 400ms ease-out;
+            
+
+            &:hover {
+                transition: all 400ms ease-out;
+                -webkit-text-stroke: 0.3px #282828;
+                // background: $instagram-color;
+                background: lightpink;
+                color: #f3f3f3;
+            }
+        }
+    }
+}

@@ -7,7 +7,7 @@
 
     
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/6c9b1e2bd3.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
@@ -49,75 +49,91 @@
             </ul>
         </div>
     </nav>
+    
+    <div class="fixed">
+        <div class="redes">
+            <a class="redes__w" href="https://wa.me/message/HLI5XCNQFAF2D1">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <a class="redes__f" href="https://www.facebook.com/profile.php?id=100077342690934">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+
+            <a class="redes__i" href="https://www.instagram.com/discorfloresropa/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </div>
 
     <main>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel" data-slide-to="1"></li>
-              <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
         
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-        
-              <div class="item active">
-                <img src="https://picsum.photos/seed/car/500/300/" alt="Los Angeles" style="width:100%;">
-                <div class="carousel-caption">
-                  <h3>Los Angeles</h3>
-                  <p>LA is always so much fun!</p>
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-bnt" id="radio1">
+                <input type="radio" name="radio-bnt" id="radio2">
+                <input type="radio" name="radio-bnt" id="radio3">
+                <input type="radio" name="radio-bnt" id="radio4">
+                <input type="radio" name="radio-bnt" id="radio5">
+
+                <div class="slide first">
+                    <img src="./img/1.jpg" alt="">
                 </div>
-              </div>
-        
-              <div class="item">
-                <img src="https://picsum.photos/seed/csar/500/300/" alt="Chicago" style="width:100%;">
-                <div class="carousel-caption">
-                  <h3>Chicago</h3>
-                  <p>Thank you, Chicago!</p>
+                <div class="slide">
+                    <img src="./img/2.jpg" alt="">
                 </div>
-              </div>
-            
-              <div class="item">
-                <img src="https://picsum.photos/seed/cony/500/300/" alt="New York" style="width:100%;">
-                <div class="carousel-caption">
-                  <h3>New York</h3>
-                  <p>We love the Big Apple!</p>
+                <div class="slide">
+                    <img src="./img/3.jpg" alt="">
                 </div>
-              </div>
-          
+                <div class="slide">
+                    <img src="./img/4.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./img/5.jpg" alt="">
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
+                </div>
             </div>
-        
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
+
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+                <label for="radio5" class="manual-btn"></label>
+            </div>
+        </div>
+
     </main>
 
     <footer>
-        <div class="col col-4 d-flex justify-content-center">
-            <img src="./img/logo.png" alt="logo">
-        </div>
-        <div class="col d-flex flex-column justify-content-center">
-            <a href="https://goo.gl/maps/ZG1YfcDxdFqABgxY6">
-                <p>Av. Rivadavia 7477 <br>Local 7 - Flores</p>
-            </a>
-            <a href="https://wa.me/message/HLI5XCNQFAF2D1">
-                <p>Tel: 11 2252-3121</p>
-            </a>
-            <div class="redes d-flex">
-                <div class="">
-                    <a class="redes__i" href="https://www.instagram.com/discorfloresropa/"><i class="fa-brands fa-instagram fa-xl"></i></a>
+        <div class="footer d-flex justify-content-center">
+            <div class="footer__1 col d-flex justify-content-center">
+                <img src="./img/logo.png" alt="logo">
+            </div>
+            <div class="footer__2 col d-flex flex-column">
+                <a href="https://goo.gl/maps/ZG1YfcDxdFqABgxY6">
+                    <p>Av. Rivadavia 7477 <br>Local 7 - Flores</p>
+                </a>
+                <a href="https://wa.me/message/HLI5XCNQFAF2D1">
+                    <p>Tel: 11 2252-3121</p>
+                </a>
+                <div class="redes d-flex">
+                    <div class="">
+                        <a class="redes__i-f" href="https://www.instagram.com/discorfloresropa/"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                    </div>
+                    <div class="">
+                        <a class="redes__f-f" href="https://www.facebook.com/profile.php?id=100077342690934"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                    </div>
                 </div>
-                <div class="">
-                    <a class="redes__f" href="https://www.facebook.com/profile.php?id=100077342690934"><i class="fa-brands fa-facebook fa-xl"></i></a>
-                </div>
+            </div>
+            <div class="footer__3 col">
+                <p>Created by:</p>
+                <a href="https://www.linkedin.com/in/ezequiel-mendoza-romero-357780235/">Ezequiel M.</a>
             </div>
         </div>
     </footer>

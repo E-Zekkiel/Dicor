@@ -1,0 +1,57 @@
+.footer {
+    flex-wrap: wrap;
+    align-items: center;
+    background: #282828;
+    min-height: 15vh;
+    padding: 15px;
+    gap: 5px;
+    position: relative;
+
+    &__1{
+        height: 90px;
+    }
+    &__2{
+        align-items: center;
+        & p {
+            text-align: center;
+            width: 200px;
+            margin: 5px 0;
+            color: #cdceb3;
+        }
+        & a {
+            text-decoration: none;
+            & p:hover {
+                color: #f4f8a1;
+            }
+        }
+    }
+    &__3{
+        display: block;
+        padding: 15px 0;
+        height: 50px;
+        
+        text-align: center;
+        & p {
+            padding-bottom: 5px;
+            color: grey;
+        }
+        & a {
+            padding-left: 25px ;
+            color: #3b5998;
+            text-decoration: none;
+            &:hover {
+                color: #5271b3;
+            }
+        }
+    }
+}
+.redes {
+    margin-top: 10px;    
+    gap: 15px;
+    &__i-f {
+        @include redes($instagram-color, 50%);
+    }
+    &__f-f {
+        @include redes (#3b5998, 50%);
+    }
+}
